@@ -17,8 +17,9 @@ public class CheckAlphabetIsVowelOrConsonant {
          */
 
         String lowerCaseAlphabet = alphabet.toLowerCase();
+        String [] stringArray = {"a","e","i","o","u"};
 
-        if (lowerCaseAlphabet =="a"|| lowerCaseAlphabet =="e"|| lowerCaseAlphabet =="i"|| lowerCaseAlphabet =="o"|| lowerCaseAlphabet =="u"){
+        if (lowerCaseAlphabet.equals(stringArray[0])|| lowerCaseAlphabet.equals(stringArray[1])|| lowerCaseAlphabet .equals(stringArray[2])|| lowerCaseAlphabet.equals(stringArray[3])|| lowerCaseAlphabet.equals(stringArray[4])){
             System.out.println(alphabet+ " is Vowel");
         }
         else {
