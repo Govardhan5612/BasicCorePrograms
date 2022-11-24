@@ -11,9 +11,9 @@ public class HarmonicNumber {
      * @param args
      */
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
+        Scanner input=new Scanner(System.in);
         System.out.print("Enter the harmonic value ");
-        float harmonicValue= sc.nextFloat();
+        float harmonicValue= input.nextFloat();
         float harmonicNumber=0.0f;
         System.out.print("Harmonic numbers : ");
         for(float i=1;i<=harmonicValue;i++){
