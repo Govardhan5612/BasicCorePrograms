@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  */
 
-public class FlipCoinPrintPercentageOfHeadAndTails {
+public class PercentageOfHeadAndTailsUseCoinFlipping {
     /**
      *
      * FlipCoinPrintPercentageOfHeadAndTails class
